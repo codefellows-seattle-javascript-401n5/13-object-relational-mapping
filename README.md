@@ -1,23 +1,12 @@
+[![Build Status](https://travis-ci.com/Bolstad09/13-object-relational-mapping.svg?branch=master)](https://travis-ci.com/Bolstad09/13-object-relational-mapping)
+
 ![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 13: Single Resource Mongo and Express API
 ===
 
-## Submission Instructions
-Follow the instructions in the "Lab Submission Instructions" document in the course reference folder
-
-## Learning Objectives  
-* students will be able to work with the MongoDB database management system
-* students will understand the primary concepts of working with a NoSQL database management system
-* students will be able to create custom data models *(schemas)* through the use of mongoose.js
-* students will be able to use mongoose.js helper methods for interacting with their database persistence layer
-
-## Requirements
-
-#### Feature Tasks
-* create an HTTP Server using `express`
-* create a resource **model** of your choice that uses `mongoose.Schema` and `mongoose.model`
-* use the `body-parser` express middleware to parse the `req` body on `POST` and `PUT` requests
-* use the npm `debug` module to log the functions and methods that are being used in your application
-* use the express `Router` to create a route for doing **RESTFUL CRUD** operations against your _model_
+## LINKS
+HEROKU: https://lab--13.herokuapp.com/
+TRAVIS: https://travis-ci.com/Bolstad09/13-object-relational-mapping.svg?branch=master
+PR: https://github.com/Bolstad09/13-object-relational-mapping/pull/1
 
 ## Server Endpoints
 ### `/api/resource-name`
