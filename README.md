@@ -6,7 +6,7 @@
 ## LINKS
 HEROKU: https://lab--13.herokuapp.com/
 TRAVIS: https://travis-ci.com/Bolstad09/13-object-relational-mapping.svg?branch=master
-PR: 
+PR: https://github.com/Bolstad09/13-object-relational-mapping/pull/1
 
 ## Server Endpoints
 ### `/api/resource-name`
