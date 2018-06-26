@@ -24,12 +24,14 @@ router.get('/', (req,res,next) => {
 
 router.get('/api/v1/:model', (req,res,next) => {
   req.model.find({})
+    .populate('dogs')
     .then( data => sendJSON(res,data) )
     .catch( next );
 });
 
 router.get('/api/v1/:model/:id', (req,res,next) => {
   req.model.findById(req.params.id)
+    .populate('dogs')
     .then( data => sendJSON(res,data) )
     .catch( next );
 });

@@ -6,6 +6,8 @@ export default (dir) => {
     find: () => Promise.resolve([]),
     findOne: () => Promise.resolve({}),
     save: data => Promise.resolve(data),
+    findByIdAndUpdate: () => Promise.resolve({}),
+    findByIdAndDelete: () => Promise.resolve({}),
   };
 
   if (typeof dir !== 'string') {
