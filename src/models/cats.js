@@ -25,3 +25,5 @@ const cats = mongoose.Schema({
 });
 
 export default mongoose.model('cats', cats);
+
+9:05
